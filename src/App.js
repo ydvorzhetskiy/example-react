@@ -15,16 +15,6 @@ const App = () => {
             <br/>
             {visible && <CharactersPage/>}
 
-            <br/>
-            <Counter/>
-            <br/>
-            <Counter initialValue={0}/>
-            <br/>
-            <Counter initialValue={1}/>
-            <br/>
-            <Counter initialValue={2}/>
-            <br/>
-            <Counter initialValue={-100}/>
 
         </div>
     );
